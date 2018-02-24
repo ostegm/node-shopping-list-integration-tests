@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: RNwW0gCyvWc15RNbl/dMpV+FZvCcPKy/0YCd2qF4W9GxISGJA3I/K6BPx0w4hgBlCL1HQy5vqGfZcKkTmsYyw+xl00wyzabSfjIwUih6R1+6h+xp3vwkZ5ZYjt9mMzEZAzrJ/cgJlhS894WetsI51Q0CodJ6y1bYzuCzixz2AAhFYO+ncT+dWwqbwqpfCYRoEHo9dLbI52YnDwwOFrtv3eXgPiKbeftesXicnabAC4h0wMiWEou1PIL5FkrLDL8HZk8S6HaZkrkLpAC9wTm6P+WwOmmFqooi6wv7doZ+8uwfXn4DAT5iMUxSDGFyBh7JEDT+r4cUJU6rU2+mhvj5c7L/94UY1Sd56Fzt4OcVdMQdkUbL2d9A6dg5QaK2Inpm56DlhrEUPUY4cMaqEoHlK8f4J5O8q04Rq0jJd02txBeqsqIMF65kr4zfmEOLtGbE+OQDziYG1770SVG1t7NmIUzkT6ogfhlnWd3Ye5FjuFN8A8i4YtK55LzhX4iAvwYTq9hQfdbKAxm+xaS8clE+1kobMhDW9Gi+gaoFiguOSROk3gFHtWIvcBeOBdcljqyjjdawkJaG+gx2+hH6Ww+i9+MQtsby1zvyRE0gsu380xIhghzud+xy0y4GvZRIx5hZjRvwTMCIb8hl1uLFHHW5EdaAw1FW9usRHOnStlmzL/8=
+  app: mysterious-cove-52694
+  on:
+    repo: ostegm/node-shopping-list-integration-tests
